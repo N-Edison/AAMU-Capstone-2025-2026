@@ -1,0 +1,30 @@
+.subckt aamu_bjt V+ V- VDD VSS OUT
+.include "/Users/nemo/Desktop/Capstone Project 2025-2026/bjt.lib"
+R13 VDD Net-_Q4-E_ 10
+Q4 Net-_Q4-E_ /Mirror /Difference BJT2N3906
+R12 VDD Net-_Q7-E_ 10
+Q6 /Difference V+ Net-_Q6-E_ BJT2N3904
+R2 Net-_Q2-E_ VSS 10
+R11 Net-_Q1-E_ VSS 10
+Q1 Net-_D1-K_ Bias Net-_Q1-E_ BJT2N3904
+Q2 Bias Bias Net-_Q2-E_ BJT2N3904
+C1 Net-_C1-Pad1_ OUT 0.001u
+XRV2 Net-_R9-Pad2_ Net-_Q5-C_ Net-_R8-Pad2_ potentiometer
+R9 Net-_Q6-E_ Net-_R9-Pad2_ 100
+R5 Net-_Q6-E_ Net-_Q5-C_ 220
+XRV3 unconnected-_RV3-Pad1_ Net-_R14-Pad2_ Net-_C1-Pad1_ potentiometer
+R7 Net-_Q9-E_ VSS 10
+R8 Net-_Q3-E_ Net-_R8-Pad2_ 100
+Q9 OUT Bias Net-_Q9-E_ BJT2N3904
+R1 /TRIM Bias 680
+XRV1 unconnected-_RV1-Pad1_ VDD /TRIM potentiometer
+R3 Net-_Q3-E_ Net-_Q5-C_ 220
+Q7 Net-_Q7-E_ /Mirror /Mirror BJT2N3906
+Q3 /Mirror V- Net-_Q3-E_ BJT2N3904
+R4 Net-_Q5-E_ VSS 10
+Q5 Net-_Q5-C_ Bias Net-_Q5-E_ BJT2N3904
+R14 /Difference Net-_R14-Pad2_ 10
+R6 VDD Net-_Q8-E_ 10
+C2 VDD VSS 10u
+Q8 Net-_Q8-E_ /Difference OUT BJT2N3906
+.end
