@@ -1511,538 +1511,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Transistor_BJT:MMDT3904"
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q"
-				(at 5.08 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "MMDT3904"
-				(at 5.08 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
-				(at 5.08 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.diodes.com/_files/datasheets/ds30088.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "200mA IC, 40V Vce, Dual NPN/NPN Transistors, SOT-363"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "NPN/NPN Transistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SOT?363*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "MMDT3904_0_1"
-				(polyline
-					(pts
-						(xy 0.635 1.905) (xy 0.635 -1.905)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 0.635) (xy 2.54 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 -0.635) (xy 2.54 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.27 0)
-					(radius 2.8194)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "MMDT3904_1_1"
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "B1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "C1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "E1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "MMDT3904_2_1"
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "B2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "C2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "E2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Transistor_BJT:MMDT3906"
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q"
-				(at 5.08 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "MMDT3906"
-				(at 5.08 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
-				(at 5.08 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.diodes.com/_files/datasheets/ds30124.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "200mA IC, 40V Vce, Dual PNP/PNP Transistors, SOT-363"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "PNP/PNP Transistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SOT?363*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "MMDT3906_0_1"
-				(polyline
-					(pts
-						(xy 0.635 1.905) (xy 0.635 -1.905)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 0.635) (xy 2.54 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 -0.635) (xy 2.54 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.27 0)
-					(radius 2.8194)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.286 -1.778) (xy 1.778 -2.286) (xy 1.27 -1.27) (xy 2.286 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "MMDT3906_1_1"
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "B1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "C1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "E1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "MMDT3906_2_1"
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "B2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "C2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "E2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:PWR_FLAG"
 			(power)
 			(pin_numbers
@@ -2383,6 +1851,17 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Vos Null Pulling \n"
+		(exclude_from_sim no)
+		(at 328.168 141.224 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1f357d0e-07d6-46cd-a2e2-4ae9c491f04d")
+	)
 	(text_box "2 Stage BJT Op-Amp"
 		(exclude_from_sim no)
 		(at 288.29 29.421 0)
@@ -2420,6 +1899,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0b80d711-fa8c-416b-9dd9-aa0a2a08537c")
+	)
+	(junction
+		(at 240.03 250.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "127c4726-35c4-40be-a5ab-8f058f98234a")
 	)
 	(junction
 		(at 208.28 223.52)
@@ -2649,7 +2134,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 250.19) (xy 331.47 250.19)
+			(xy 233.68 250.19) (xy 240.03 250.19)
 		)
 		(stroke
 			(width 0)
@@ -2726,6 +2211,16 @@
 			(type default)
 		)
 		(uuid "212cedbb-f234-4aba-8a04-e2a7985703a2")
+	)
+	(wire
+		(pts
+			(xy 240.03 250.19) (xy 331.47 250.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2489bf4c-67c3-4160-b330-c290f2809136")
 	)
 	(wire
 		(pts
@@ -3089,6 +2584,16 @@
 	)
 	(wire
 		(pts
+			(xy 240.03 246.38) (xy 240.03 250.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91bd6b4e-21d5-4ef3-a6c2-9b66c30404f6")
+	)
+	(wire
+		(pts
 			(xy 422.91 119.38) (xy 441.96 119.38)
 		)
 		(stroke
@@ -3216,6 +2721,16 @@
 			(type default)
 		)
 		(uuid "abc541c2-cb36-43bb-988a-7c5e8c9cac3b")
+	)
+	(wire
+		(pts
+			(xy 336.55 101.6) (xy 365.76 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae018c2b-d12c-49a7-83b1-3e4777b4d8fd")
 	)
 	(wire
 		(pts
@@ -3529,16 +3044,6 @@
 	)
 	(wire
 		(pts
-			(xy 336.55 101.6) (xy 365.76 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e55906a3-143b-4d65-adc8-ecf4dce06a1f")
-	)
-	(wire
-		(pts
 			(xy 208.28 255.27) (xy 208.28 287.02)
 		)
 		(stroke
@@ -3697,6 +3202,28 @@
 		)
 		(uuid "f17a438d-0f14-4c09-9350-949b3c517ab1")
 	)
+	(global_label "Bias"
+		(shape input)
+		(at 240.03 246.38 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "091299e7-ce4e-4e6e-8ba1-69b374c9f773")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 247.0671 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "V-"
 		(shape input)
 		(at 285.75 139.7 180)
@@ -3767,7 +3294,7 @@
 		(lib_id "Connector:TestPoint")
 		(at 341.63 63.5 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -3879,6 +3406,51 @@
 			)
 		)
 		(property "Description" ""
+			(at 441.96 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" "/Users/nemo/Desktop/Capstone Project 2025-2026/bjt.lib"
+			(at 441.96 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" "BJT2N3906"
+			(at 441.96 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "PNP"
+			(at 441.96 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" "GUMMELPOON"
+			(at 441.96 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=C 2=B 3=E"
 			(at 441.96 119.38 0)
 			(effects
 				(font
@@ -4111,7 +3683,7 @@
 		(lib_id "Connector:TestPoint")
 		(at 205.74 207.01 90)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -4166,88 +3738,6 @@
 			(project ""
 				(path "/157340b1-7cc6-456a-b8ad-4bf744f983ca"
 					(reference "TP4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_BJT:MMDT3906")
-		(at 299.72 101.6 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "22f268eb-2c00-4038-9375-639aceec6081")
-		(property "Reference" "Q4"
-			(at 294.64 100.3299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MMDT3906"
-			(at 294.64 102.8699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
-			(at 294.64 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.diodes.com/_files/datasheets/ds30124.pdf"
-			(at 299.72 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "200mA IC, 40V Vce, Dual PNP/PNP Transistors, SOT-363"
-			(at 299.72 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "32a86b19-23d0-43cb-9a6a-d3205be792ac")
-		)
-		(pin "2"
-			(uuid "9aca0324-810e-4fd8-b3d3-c52103ab8f2d")
-		)
-		(pin "3"
-			(uuid "83683ccd-2c52-40f2-ae21-828fd8f64a9f")
-		)
-		(pin "1"
-			(uuid "3f177559-db9e-4786-a75b-6016d2ccea68")
-		)
-		(pin "5"
-			(uuid "900e3f03-8a8a-4c09-a018-cdfef13ffa87")
-		)
-		(pin "6"
-			(uuid "9df3814d-3ca4-457e-94a4-24f2f45d6ff6")
-		)
-		(instances
-			(project ""
-				(path "/157340b1-7cc6-456a-b8ad-4bf744f983ca"
-					(reference "Q4")
 					(unit 1)
 				)
 			)
@@ -4416,7 +3906,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Footprints AAMU Capstone:TNPN_TO-92_ONS"
+		(property "Footprint" "Footprints AAMU Capstone:2N3904TA_ONS"
 			(at 331.47 250.19 0)
 			(effects
 				(font
@@ -4437,6 +3927,51 @@
 			)
 		)
 		(property "Description" ""
+			(at 331.47 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" "/Users/nemo/Desktop/Capstone Project 2025-2026/bjt.lib"
+			(at 331.47 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" "BJT2N3904"
+			(at 331.47 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "NPN"
+			(at 331.47 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" "GUMMELPOON"
+			(at 331.47 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=C 2=B 3=E"
 			(at 331.47 250.19 0)
 			(effects
 				(font
@@ -4771,7 +4306,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Footprints AAMU Capstone:TNPN_TO-92_ONS"
+		(property "Footprint" "Footprints AAMU Capstone:2N3904TA_ONS"
 			(at 160.02 250.19 0)
 			(effects
 				(font
@@ -4792,6 +4327,51 @@
 			)
 		)
 		(property "Description" ""
+			(at 160.02 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" "/Users/nemo/Desktop/Capstone Project 2025-2026/bjt.lib"
+			(at 160.02 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" "BJT2N3904"
+			(at 160.02 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "NPN"
+			(at 160.02 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" "GUMMELPOON"
+			(at 160.02 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=C 2=B 3=E"
 			(at 160.02 250.19 0)
 			(effects
 				(font
@@ -4822,7 +4402,7 @@
 		(lib_id "Device:LED")
 		(at 152.4 223.52 90)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -4846,7 +4426,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 152.4 223.52 0)
 			(effects
 				(font
@@ -4962,88 +4542,6 @@
 			(project ""
 				(path "/157340b1-7cc6-456a-b8ad-4bf744f983ca"
 					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_BJT:MMDT3904")
-		(at 294.64 139.7 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5c224dfe-6366-44ae-be4d-ad2cdd660fc0")
-		(property "Reference" "Q3"
-			(at 299.72 138.4299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MMDT3904"
-			(at 299.72 140.9699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
-			(at 299.72 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.diodes.com/_files/datasheets/ds30088.pdf"
-			(at 294.64 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "200mA IC, 40V Vce, Dual NPN/NPN Transistors, SOT-363"
-			(at 294.64 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "5"
-			(uuid "bae5195d-f1ed-43f9-b33d-c35d0260889e")
-		)
-		(pin "6"
-			(uuid "a7a74f19-0bf1-4404-8ca1-329f9d0b4c24")
-		)
-		(pin "1"
-			(uuid "3a450846-7099-4c2e-a557-65675c33bf0f")
-		)
-		(pin "3"
-			(uuid "8825e873-a6e2-435c-96ab-4dd4f2e567a1")
-		)
-		(pin "2"
-			(uuid "3496d719-dcb6-4569-ba75-1b34a158d609")
-		)
-		(pin "4"
-			(uuid "5440ebfe-b1a8-4231-b858-8411350eb91a")
-		)
-		(instances
-			(project ""
-				(path "/157340b1-7cc6-456a-b8ad-4bf744f983ca"
-					(reference "Q3")
 					(unit 1)
 				)
 			)
@@ -5215,7 +4713,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Footprints AAMU Capstone:TRIM_3306F-1-253"
 			(at 208.28 113.03 0)
 			(effects
 				(font
@@ -5242,6 +4740,42 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Library" "/Users/nemo/Desktop/Capstone Project 2025-2026/bjt.lib"
+			(at 208.28 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" "potentiometer"
+			(at 208.28 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "SUBCKT"
+			(at 208.28 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=1 2=2 3=3"
+			(at 208.28 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8e78cad2-6fe9-467e-88eb-274161a95420")
 		)
@@ -5255,6 +4789,125 @@
 			(project ""
 				(path "/157340b1-7cc6-456a-b8ad-4bf744f983ca"
 					(reference "RV1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "2025-09-01_17-38-56:2N3904TA")
+		(at 289.56 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7e691b62-98fb-4101-96d3-0e7a2392fa8c")
+		(property "Reference" "Q3"
+			(at 299.72 138.4299 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2N3904TA"
+			(at 299.72 140.9699 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Footprints AAMU Capstone:2N3904TA_ONS"
+			(at 289.56 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "2N3904TA"
+			(at 289.56 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 289.56 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" "/Users/nemo/Desktop/Capstone Project 2025-2026/bjt.lib"
+			(at 289.56 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" "BJT2N3904"
+			(at 289.56 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "NPN"
+			(at 289.56 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" "GUMMELPOON"
+			(at 289.56 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=C 2=B 3=E"
+			(at 289.56 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c945d213-1d67-4024-9280-f783402c8069")
+		)
+		(pin "1"
+			(uuid "8dbaf5cf-515b-490d-a8b1-c05f1caafaa3")
+		)
+		(pin "3"
+			(uuid "abb24da6-db0c-4f79-b244-8f7f4ffba478")
+		)
+		(instances
+			(project "BJT OP-AMP 2025-2026"
+				(path "/157340b1-7cc6-456a-b8ad-4bf744f983ca"
+					(reference "Q3")
 					(unit 1)
 				)
 			)
@@ -5329,89 +4982,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:MMDT3906")
-		(at 370.84 101.6 0)
-		(mirror x)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8717afab-f9e9-4455-8a7d-537276bf9598")
-		(property "Reference" "Q4"
-			(at 375.92 100.3299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MMDT3906"
-			(at 375.92 102.8699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
-			(at 375.92 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.diodes.com/_files/datasheets/ds30124.pdf"
-			(at 370.84 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "200mA IC, 40V Vce, Dual PNP/PNP Transistors, SOT-363"
-			(at 370.84 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "32a86b19-23d0-43cb-9a6a-d3205be792ad")
-		)
-		(pin "2"
-			(uuid "9aca0324-810e-4fd8-b3d3-c52103ab8f2e")
-		)
-		(pin "3"
-			(uuid "83683ccd-2c52-40f2-ae21-828fd8f64aa0")
-		)
-		(pin "1"
-			(uuid "3f177559-db9e-4786-a75b-6016d2ccea69")
-		)
-		(pin "5"
-			(uuid "900e3f03-8a8a-4c09-a018-cdfef13ffa88")
-		)
-		(pin "6"
-			(uuid "9df3814d-3ca4-457e-94a4-24f2f45d6ff7")
-		)
-		(instances
-			(project ""
-				(path "/157340b1-7cc6-456a-b8ad-4bf744f983ca"
-					(reference "Q4")
-					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Potentiometer_Trim_US")
 		(at 341.63 180.34 270)
 		(unit 1)
@@ -5437,7 +5007,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Footprints AAMU Capstone:TRIM_3306F-1-253"
 			(at 341.63 180.34 0)
 			(effects
 				(font
@@ -5456,6 +5026,42 @@
 			)
 		)
 		(property "Description" "Trim-potentiometer, US symbol"
+			(at 341.63 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" "/Users/nemo/Desktop/Capstone Project 2025-2026/bjt.lib"
+			(at 341.63 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" "potentiometer"
+			(at 341.63 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "SUBCKT"
+			(at 341.63 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=1 2=2 3=3"
 			(at 341.63 180.34 0)
 			(effects
 				(font
@@ -5510,7 +5116,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Footprints AAMU Capstone:TNPN_TO-92_ONS"
+		(property "Footprint" "Footprints AAMU Capstone:2N3904TA_ONS"
 			(at 215.9 250.19 0)
 			(effects
 				(font
@@ -5531,6 +5137,51 @@
 			)
 		)
 		(property "Description" ""
+			(at 215.9 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" "/Users/nemo/Desktop/Capstone Project 2025-2026/bjt.lib"
+			(at 215.9 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" "BJT2N3904"
+			(at 215.9 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "NPN"
+			(at 215.9 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" "GUMMELPOON"
+			(at 215.9 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=C 2=B 3=E"
 			(at 215.9 250.19 0)
 			(effects
 				(font
@@ -5561,7 +5212,7 @@
 		(lib_id "Connector:TestPoint")
 		(at 328.93 196.85 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -5691,36 +5342,54 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:MMDT3904")
-		(at 375.92 139.7 0)
-		(mirror y)
-		(unit 2)
+		(lib_id "2025-09-01_17-32-00:2N3906BU")
+		(at 304.8 101.6 180)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9b8cfd2a-93ba-439a-8c1d-71a465166d1e")
-		(property "Reference" "Q3"
-			(at 370.84 138.4299 0)
+		(uuid "9600b82f-2a59-439f-8464-903c6117fdb1")
+		(property "Reference" "Q7"
+			(at 294.64 102.8701 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(justify left)
 			)
 		)
-		(property "Value" "MMDT3904"
-			(at 370.84 140.9699 0)
+		(property "Value" "2N3906BU"
+			(at 294.64 100.3301 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
-			(at 370.84 137.16 0)
+		(property "Footprint" "Footprints AAMU Capstone:2N3906BU_ONS"
+			(at 304.8 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "2N3906BU"
+			(at 304.8 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 304.8 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5728,8 +5397,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.diodes.com/_files/datasheets/ds30088.pdf"
-			(at 375.92 139.7 0)
+		(property "Sim.Library" "/Users/nemo/Desktop/Capstone Project 2025-2026/bjt.lib"
+			(at 304.8 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5737,8 +5406,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "200mA IC, 40V Vce, Dual NPN/NPN Transistors, SOT-363"
-			(at 375.92 139.7 0)
+		(property "Sim.Name" "BJT2N3906"
+			(at 304.8 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5746,29 +5415,47 @@
 				(hide yes)
 			)
 		)
-		(pin "5"
-			(uuid "bae5195d-f1ed-43f9-b33d-c35d0260889f")
+		(property "Sim.Device" "PNP"
+			(at 304.8 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
-		(pin "6"
-			(uuid "a7a74f19-0bf1-4404-8ca1-329f9d0b4c25")
+		(property "Sim.Type" "GUMMELPOON"
+			(at 304.8 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=C 2=B 3=E"
+			(at 304.8 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "1"
-			(uuid "3a450846-7099-4c2e-a557-65675c33bf10")
-		)
-		(pin "3"
-			(uuid "8825e873-a6e2-435c-96ab-4dd4f2e567a2")
+			(uuid "bc1c6f8a-392e-4013-8419-9bd3b30d93fc")
 		)
 		(pin "2"
-			(uuid "3496d719-dcb6-4569-ba75-1b34a158d60a")
+			(uuid "40989000-5374-4df4-9586-780b2152651e")
 		)
-		(pin "4"
-			(uuid "5440ebfe-b1a8-4231-b858-8411350eb91b")
+		(pin "3"
+			(uuid "6fce8fdb-4272-41fe-962e-35967ad5dfc8")
 		)
 		(instances
-			(project ""
+			(project "BJT OP-AMP 2025-2026"
 				(path "/157340b1-7cc6-456a-b8ad-4bf744f983ca"
-					(reference "Q3")
-					(unit 2)
+					(reference "Q7")
+					(unit 1)
 				)
 			)
 		)
@@ -5778,7 +5465,7 @@
 		(at 165.1 140.97 270)
 		(mirror x)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -5799,7 +5486,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Horizontal"
 			(at 165.1 140.97 0)
 			(effects
 				(font
@@ -5942,7 +5629,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Footprints AAMU Capstone:TRIM_3306F-1-253"
 			(at 398.78 173.99 0)
 			(effects
 				(font
@@ -5961,6 +5648,42 @@
 			)
 		)
 		(property "Description" "Trim-potentiometer, US symbol"
+			(at 398.78 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" "/Users/nemo/Desktop/Capstone Project 2025-2026/bjt.lib"
+			(at 398.78 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" "potentiometer"
+			(at 398.78 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "SUBCKT"
+			(at 398.78 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=1 2=2 3=3"
 			(at 398.78 173.99 0)
 			(effects
 				(font
@@ -6014,7 +5737,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Footprints AAMU Capstone:TNPN_TO-92_ONS"
+		(property "Footprint" "Footprints AAMU Capstone:2N3904TA_ONS"
 			(at 441.96 250.19 0)
 			(effects
 				(font
@@ -6035,6 +5758,51 @@
 			)
 		)
 		(property "Description" ""
+			(at 441.96 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" "/Users/nemo/Desktop/Capstone Project 2025-2026/bjt.lib"
+			(at 441.96 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" "BJT2N3904"
+			(at 441.96 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "NPN"
+			(at 441.96 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" "GUMMELPOON"
+			(at 441.96 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=C 2=B 3=E"
 			(at 441.96 250.19 0)
 			(effects
 				(font
@@ -6065,7 +5833,7 @@
 		(lib_id "Connector:TestPoint")
 		(at 384.81 316.23 180)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -6199,6 +5967,126 @@
 		)
 	)
 	(symbol
+		(lib_id "2025-09-01_17-32-00:2N3906BU")
+		(at 365.76 101.6 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b4adf652-eedd-46e4-a571-02a102698e04")
+		(property "Reference" "Q4"
+			(at 375.92 102.8701 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2N3906BU"
+			(at 375.92 100.3301 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Footprints AAMU Capstone:2N3906BU_ONS"
+			(at 365.76 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "2N3906BU"
+			(at 365.76 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 365.76 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" "/Users/nemo/Desktop/Capstone Project 2025-2026/bjt.lib"
+			(at 365.76 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" "BJT2N3906"
+			(at 365.76 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "PNP"
+			(at 365.76 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" "GUMMELPOON"
+			(at 365.76 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=C 2=B 3=E"
+			(at 365.76 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ad2a9ae7-de18-482c-9867-ec42a735a208")
+		)
+		(pin "2"
+			(uuid "517bc6ea-d565-4859-99c9-efad469c9252")
+		)
+		(pin "3"
+			(uuid "0e298398-9f50-46f9-b80e-ec4ddf8463cf")
+		)
+		(instances
+			(project "BJT OP-AMP 2025-2026"
+				(path "/157340b1-7cc6-456a-b8ad-4bf744f983ca"
+					(reference "Q4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 339.09 292.1 0)
 		(unit 1)
@@ -6272,7 +6160,7 @@
 		(lib_id "Connector:TestPoint")
 		(at 208.28 158.75 90)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -6337,7 +6225,7 @@
 		(lib_id "Device:R_US")
 		(at 422.91 146.05 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -6468,6 +6356,126 @@
 			(project ""
 				(path "/157340b1-7cc6-456a-b8ad-4bf744f983ca"
 					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "2025-09-01_17-38-56:2N3904TA")
+		(at 381 139.7 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ddac0c21-7ee8-465c-b360-fc5d88c2c64c")
+		(property "Reference" "Q6"
+			(at 370.84 138.4299 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2N3904TA"
+			(at 370.84 140.9699 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Footprints AAMU Capstone:2N3904TA_ONS"
+			(at 381 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "2N3904TA"
+			(at 381 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 381 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" "/Users/nemo/Desktop/Capstone Project 2025-2026/bjt.lib"
+			(at 381 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" "BJT2N3904"
+			(at 381 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "NPN"
+			(at 381 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" "GUMMELPOON"
+			(at 381 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=C 2=B 3=E"
+			(at 381 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2f445e18-1a7b-4378-bee7-d1b9ae43d1dd")
+		)
+		(pin "1"
+			(uuid "1d42b4e2-e217-451d-a040-61dd14b6bc6f")
+		)
+		(pin "3"
+			(uuid "7bf63340-e8d4-4e6c-b2ee-1b25510f15fa")
+		)
+		(instances
+			(project "BJT OP-AMP 2025-2026"
+				(path "/157340b1-7cc6-456a-b8ad-4bf744f983ca"
+					(reference "Q6")
 					(unit 1)
 				)
 			)
@@ -6613,7 +6621,7 @@
 		(lib_id "Connector:TestPoint")
 		(at 452.12 209.55 270)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -6678,7 +6686,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 152.4 207.01 0)
+		(at 152.4 207.01 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6687,7 +6695,7 @@
 		(fields_autoplaced yes)
 		(uuid "f70f5a89-862a-40dd-b38d-970aaaae59fd")
 		(property "Reference" "#FLG01"
-			(at 152.4 205.105 0)
+			(at 150.495 207.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6696,11 +6704,12 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 152.4 201.93 0)
+			(at 148.59 207.0099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -6816,7 +6825,7 @@
 		(lib_id "Connector:TestPoint")
 		(at 336.55 99.06 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
