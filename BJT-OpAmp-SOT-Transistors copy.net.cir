@@ -1,0 +1,30 @@
+.title KiCad schematic
+.include "/Users/nemo/Desktop/Capstone Project 2025-2026/BJT Board with SOT Transistors /2-stage-bjt.txt"
+R9 Net-_Q9-E_ Net-_R9-Pad2_ 100
+R7 Net-_Q4-E_ VSS 10
+Q4 OUT Bias Net-_Q4-E_ DI_MMBT3904
+Q3 /Tail Bias Net-_Q3-E_ DI_MMBT3904
+R4 Net-_Q3-E_ VSS 10
+XRV2 Net-_R9-Pad2_ /Tail Net-_R8-Pad2_ potentiometer
+R2 Net-_Q2-E_ VSS 10
+Q2 Bias Bias Net-_Q2-E_ DI_MMBT3904
+R11 Net-_Q1-E_ VSS 10
+R13 VDD Net-_Q6-E_ 10
+Q6 /Difference /Mirror Net-_Q6-E_ DI_MMBT3906
+R6 VDD Net-_Q5-E_ 10
+R12 VDD Net-_Q7-E_ 10
+Q7 /Mirror /Mirror Net-_Q7-E_ DI_MMBT3906
+C2 VDD VSS 10u
+Q5 OUT /Difference Net-_Q5-E_ DI_MMBT3906
+R3 Net-_Q8-E_ /Tail 220
+R1 /Trim Bias 680
+Q8 /Mirror V- Net-_Q8-E_ DI_MMBT3904
+R8 Net-_Q8-E_ Net-_R8-Pad2_ 100
+C1 Net-_C1-Pad1_ OUT 0.001u
+Q9 /Difference V+ Net-_Q9-E_ DI_MMBT3904
+R5 Net-_Q9-E_ /Tail 220
+R14 /Difference Net-_R14-Pad2_ 10
+XRV3 unconnected-_RV3-Pad1_ Net-_R14-Pad2_ Net-_C1-Pad1_ potentiometer
+XRV1 unconnected-_RV1-Pad1_ VDD /Trim potentiometer
+Q1 Net-_D1-K_ Bias Net-_Q1-E_ DI_MMBT3904
+.end
